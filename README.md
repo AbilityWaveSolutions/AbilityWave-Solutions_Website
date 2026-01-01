@@ -1,52 +1,22 @@
-# AbilityWave Solutions — Website (development)
+# AbilityWave Solutions
 
-This repository contains the source for a modular, static website for AbilityWave Solutions. The site lives in the `site/` folder and is intentionally simple and framework-agnostic.
+Welcome to the AbilityWave Solutions website — your hub for systems-focused technology, education, and research.
 
-Local preview
+## About us
 
-```bash
-cd site
-python3 -m http.server 8000
-# open http://localhost:8000
-```
+AbilityWave Solutions is a multidisciplinary technology and education organization composed of focused product lines and a shared systems research lab. We build durable software, learning systems, and tools designed to remain useful across changing contexts.
 
-Deployment
+## What you'll find here
 
-- Use GitHub Pages (either via `docs/` on `main` or a `gh-pages` branch), or add a GitHub Actions workflow to publish `site/` output. I can add a workflow if you want.
+- **Products** — Professional solutions across Workstream (retail & operations), TradeWave (algorithmic trading), and Horizon Education Labs (learning tools)
+- **Nexus Systems Lab** — Our R&D backbone, providing platform architecture and shared engineering standards
+- **Free Software** — Open-source tools we publish to support the community
+- **Insights** — A curated feed of technical and professional perspectives from our team
+- **About & Contact** — Learn more about how we work and get in touch
 
-Repository structure
+## Updates
 
-- `site/` — HTML pages and assets
-- `site/assets/css` — styles
-- `site/assets/js` — small client JS (nav + tag filtering)
-
-Next steps
-
-- Add real content, images, and blog posts (MD -> HTML pipeline if preferred).
-- Add CI to lint HTML/CSS and deploy automatically.
-
-# AbilityWaveSolutions — Main-Website
-
-[![GitHub Actions - Deploy Pages](https://github.com/AbilityWaveSolutions/Main-Website/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/AbilityWaveSolutions/Main-Website/actions/workflows/deploy-pages.yml)
-
-This repository contains the static website for Ability Wave Solutions.
-
-## Contents
-- `site/` — HTML pages, assets, and site-specific README
-
-## Latest changes
-- 2026-01-01: Committed all workspace changes and updated this README to summarize the update.
-
-## Notes
-- To stage and commit local changes:
-
-```bash
-git add -A
-git commit -m "Commit all changes and update README"
-git push origin main
-```
-
-For more details see the `site/` folder.
+Check back regularly for new product announcements, research insights, and open-source releases.
 
 
 Readme file contents. 
